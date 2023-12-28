@@ -4,7 +4,7 @@ import { MdSearch, MdCalendarMonth, MdPerson } from "react-icons/md";
 const Search = () => {
   return (
     <div className="grid grid-cols-4 w-full md:w-[60%] h-[120px] border-2 rounded-lg border-[#212A39] bg-[#16202F]">
-      <div className="col-span-3 mx-3">
+      <div className="col-span-4 mx-5">
         <div className="w-[100%] border-b py-3 border-[#425472] flex">
           <MdSearch style={{ color: "#425472", width: "2em", height: "2em" }} />
           <input
@@ -36,9 +36,9 @@ const Search = () => {
         
       </div>
 
-      <button className="w-full bg-gray-950 px-3">
+      {/* <button className="w-full bg-gray-950 px-3">
         <MdSearch style={{ color: "#425472", width: "3em", height: "3em" }} />
-      </button>
+      </button> */}
     </div>
   );
 };
